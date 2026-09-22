@@ -88,6 +88,13 @@ Claude Code 會依序：
 - [complete-30-day-fastapi-mastery-series-plan.md](./skills/serialized-tech-series-architect/examples/complete-30-day-fastapi-mastery-series-plan.md)：完整 30 天示範藍圖。
 - [complete-50-day-n8n-automation-and-ai-agent-series-plan.md](./skills/serialized-tech-series-architect/examples/complete-50-day-n8n-automation-and-ai-agent-series-plan.md)：完整 50 天示範藍圖。
 
+四個 Agent 各自也有一份對應的輸入輸出範例，四份串起來剛好是同一個 Day 10「雙重權杖簽發與自動過期刷新機制」從靈感到審查報告的完整流程：
+
+- [planning-agent 範例](./agents/examples/planning-agent/day10-jwt-refresh-idea-to-spec.md)：靈感筆記 → 寫作規格書
+- [writing-agent 範例](./agents/examples/writing-agent/day10-jwt-refresh-spec-to-draft.md)：規格書 → 初稿
+- [visual-agent 範例](./agents/examples/visual-agent/day10-jwt-refresh-diagram-to-mermaid.md)：圖表佔位符 → Mermaid 架構圖
+- [critic-agent 範例](./agents/examples/critic-agent/day10-jwt-refresh-review-report.md)：初稿 → 審查報告
+
 ## 使用時機
 
 要規劃 30 至 50 篇的長篇系列技術專欄、鐵人賽 30 天系列文、技術書籍連載或大型系列化教學課程時，在對話中提出需求，Claude Code 會自動判斷套用 `serialized-tech-series-architect` Skill 規劃系列骨架；實際逐篇生成內容時，依「靈感筆記 → 規格書 → 初稿 → 配圖 → 審查」的順序，依序呼叫 `planning-agent`、`writing-agent`、`visual-agent`、`critic-agent`。
