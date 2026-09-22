@@ -1,0 +1,20 @@
+{
+  "name": "serialized-tech-series-architect",
+  "description": "長篇系列技術文寫作 Skill 與 Agent pipeline 的個人發佈用 Marketplace",
+  "owner": {
+    "name": "Recca Chao",
+    "email": "flamerecca711@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "serialized-tech-series-architect",
+      "description": "長篇系列技術專欄／鐵人賽 30 天／技術書籍連載的規劃 Skill，加上規劃、撰寫、視覺、審查四線 Agent 的實際生成 pipeline。",
+      "version": "1.0.0",
+      "source": "./",
+      "author": {
+        "name": "Recca Chao",
+        "email": "flamerecca711@gmail.com"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "serialized-tech-series-architect",
+  "version": "1.0.0",
+  "description": "長篇系列技術專欄／鐵人賽 30 天／技術書籍連載的規劃 Skill，加上規劃、撰寫、視覺、審查四線 Agent 的實際生成 pipeline。",
+  "author": {
+    "name": "Recca Chao",
+    "email": "flamerecca711@gmail.com"
+  },
+  "homepage": "https://github.com/flamerecca/serialized-tech-series-architect",
+  "repository": "https://github.com/flamerecca/serialized-tech-series-architect",
+  "license": "MIT",
+  "keywords": [
+    "content-pipeline",
+    "technical-writing",
+    "serialized-series",
+    "ithome-ironman",
+    "planning-agent",
+    "writing-agent"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/"
+}
