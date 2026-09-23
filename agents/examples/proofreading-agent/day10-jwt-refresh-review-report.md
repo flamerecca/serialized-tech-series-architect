@@ -1,6 +1,6 @@
 # 範例：初稿 → 審查報告
 
-延續 [writing-agent 範例](../writing-agent/day10-jwt-refresh-spec-to-draft.md) 的初稿與 [visual-agent 範例](../visual-agent/day10-jwt-refresh-diagram-to-mermaid.md) 的圖表，示範 `critic-agent` 怎麼依三份既定依據複核成品。
+延續 [writing-agent 範例](../writing-agent/day10-jwt-refresh-spec-to-draft.md) 的初稿與 [visual-agent 範例](../visual-agent/day10-jwt-refresh-diagram-to-mermaid.md) 的圖表，示範 `proofreading-agent` 怎麼依三份既定依據複核成品。
 
 ## 輸入：待審成品與三份既定依據（節錄）
 
@@ -32,6 +32,6 @@
 
 ## 這份範例示範了什麼
 
-- **比對基準是既定依據，不是主觀品味**：抓到的落差是「規格書要求 HttpOnly Cookie」對照「程式碼實際回傳 JSON body」，比對來源是 Section Spec 這份既定文件，不是 `critic-agent` 自己覺得哪種寫法比較好。
+- **比對基準是既定依據，不是主觀品味**：抓到的落差是「規格書要求 HttpOnly Cookie」對照「程式碼實際回傳 JSON body」，比對來源是 Section Spec 這份既定文件，不是 `proofreading-agent` 自己覺得哪種寫法比較好。
 - **HITL 判準的實際運作**：程式碼缺少 `set_cookie` 呼叫這件事本身可自動判定成立；但「該不該在教學文章裡展示完整 Cookie 設定」涉及主觀取捨，因此連同兩種合理解讀一併交給使用者決定，不是替使用者做決定。
 - **只找問題、不動手改**：報告完全沒有動手改寫程式碼或正文，落差修正的執行權留給 `writing-agent` 依使用者的決策重新處理。
